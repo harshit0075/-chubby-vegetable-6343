@@ -1,0 +1,153 @@
+.nav{
+    background-color: rgb(3, 3, 91);
+    text-align: center;
+  
+   margin: 0px;
+}
+
+.nav div h2{
+    color: white;
+}
+#container>.logo>img{
+    width: 50px;
+    align-items: center;
+}
+#container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+#container .word{
+    width: 850px;
+    display: flex;
+    justify-content: space-around ;
+    
+    align-items: center;
+    
+}
+#container .word .btn{
+    color: aqua;
+    width: 200px;
+}
+.first{
+    text-align: center;
+}
+.first p{
+    font-size: 20px;
+}
+.first div .btn{
+    margin-right: 250px;
+    
+    padding: 12px;
+    width: 150px;
+    margin: auto;
+    text-align:center;
+    
+}
+.first div{
+
+    width: 50%;
+    margin: auto;
+}
+.box{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.box2{
+text-align: center;
+margin-top: 40px;
+}
+.word2{
+    text-align: center;
+}
+.box3{
+    display: flex;
+   width: 80%;
+    margin: auto; 
+    justify-content: space-between;
+    
+}
+.box4{
+    display:flex;
+    width: 80%;
+    margin: auto; 
+    
+}
+.box5{
+    display: flex;
+    width: 80%;
+    margin: auto; 
+    
+}
+
+
+#parent{
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+.word3{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 20px;
+}
+.box6{
+    text-align:center;
+}
+.word4{
+    text-align: center;
+    margin-top: 100px;
+}
+.box7{
+    text-align: center;
+}
+.center{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border: 1px solid red;
+    width: 200px;
+    margin: auto;
+
+}
+.btn{
+    margin-right: 250px;
+    background-color:green;
+    padding: 12px;
+    width: 150px;
+    margin: auto;
+    text-align:center;
+    
+}
+.btn button {
+width: 150px;
+}
+
+.box2{
+    background-color:rgb(28, 28, 57);
+    margin-top: 20px;
+    width: 95%;
+    height: 80%;
+    
+
+}
+.box2 h2{
+    color: white;
+    text-align: left;
+    margin-top: 100px;
+}
+.box2 button{
+    background-color: green;
+}
+.box2 .t1 img{
+    width: 30%;
+    margin-left: 900px;
+}
+.box h2{
+    width: 30%;
+    margin-right: 200px;
+}
