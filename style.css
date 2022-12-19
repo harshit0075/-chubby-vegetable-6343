@@ -65,7 +65,7 @@ margin-top: 40px;
 .word2{
     text-align: center;
 }
-.box3{
+/* .box3{
     display: flex;
    width: 80%;
     margin: auto; 
@@ -83,13 +83,16 @@ margin-top: 40px;
     width: 80%;
     margin: auto; 
     
-}
+} */
 
 
 #parent{
-    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 90%;
     margin: auto;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 15px;
 }
 .word3{
     text-align: center;
@@ -101,7 +104,7 @@ margin-top: 40px;
 }
 .word4{
     text-align: center;
-    margin-top: 100px;
+    /* margin-bottom: 100px; */
 }
 .box7{
     text-align: center;
@@ -109,9 +112,9 @@ margin-top: 40px;
 .center{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    border: 1px solid red;
-    width: 200px;
-    margin: auto;
+
+    /* width: 200px; */
+    /* margin: auto; */
 
 }
 .btn{
@@ -131,23 +134,30 @@ width: 150px;
     background-color:rgb(28, 28, 57);
     margin-top: 20px;
     width: 95%;
-    height: 80%;
+    height: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
     
+
+}
+.box2>div{
+    width: 45%;
 
 }
 .box2 h2{
     color: white;
-    text-align: left;
-    margin-top: 100px;
+    /* text-align: left; */
+    /* margin-top: 100px; */
 }
 .box2 button{
-    background-color: green;
+    /* background-color: green; */
 }
 .box2 .t1 img{
-    width: 30%;
-    margin-left: 900px;
+    width: 60%;
+    /* margin-left: 900px; */
 }
 .box h2{
-    width: 30%;
-    margin-right: 200px;
+    /* width: 30%; */
+    /* margin-right: 200px; */
 }

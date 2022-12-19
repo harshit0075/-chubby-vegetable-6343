@@ -1,0 +1,67 @@
+body{
+	background-color: rgb(146, 133, 133);
+}
+#account_page{
+	display: none;
+	display: block;
+
+}
+
+#formDiv{
+	/* border: 2px solid red; */
+	/*  */
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	
+}
+ #register{
+	text-align: center;
+	height: 500px;
+	width: 400px;
+	background-color: brown;
+ }
+#btn_reg{
+	width: 320px;
+	padding: 10px;
+	background-color:rgb(46, 45, 45);
+	color: aliceblue;
+	cursor: pointer;
+	
+}
+#btn_reg:hover{
+	background-color: cadetblue;
+}
+#formDiv>form{
+	text-align: center;
+	height: 500px;
+	width: 400px;
+	background-color: brown;
+}
+input{
+	width: 300px;
+	padding: 10px;
+}
+#forget_pass{
+	margin-top: 50px;
+	margin-left: 40px;
+}
+#sign{
+	width: 320px;
+margin-top: 20px;
+padding: 10px ;
+border-radius: none;
+background-color:rgb(46, 45, 45) ;
+color: white;
+}
+#fac{
+	/* width: 20%; */
+	padding: 3px 20px;
+	background-color: rgb(120, 120, 231);
+  }
+#google{
+	/* width: 20%; */
+	background-color: beige;
+	padding: 3px 20px;
+}

@@ -1,0 +1,50 @@
+body{
+	background-color: rgb(42, 46, 46);
+}
+#signup{
+     width: 40%;
+	 background-color: rgb(83, 93, 112);
+	 margin: auto;
+	 text-align: center;
+}
+#fac{
+  width: 200px;
+  padding: 10px;
+  /* border: 2px solid green; */
+}
+#google{
+	padding: 10px 20px;
+	border: 2px solid red;
+	width: 200px;
+}
+#name{
+	width: 400px;
+	padding: 10px;
+}
+#email{
+	width: 400px;
+	padding: 10px;
+}
+#confirm-email{
+	width: 400px;
+	padding: 10px;
+}
+#pass{
+	width: 400px;
+	padding: 10px;
+}
+#confirm-password{
+	width: 400px;
+	padding: 10px;
+}
+#phone-number{
+	width: 400px;
+	padding: 10px;
+}
+#sub{
+	width: 420px;
+	padding: 10px;
+}
+#sub:hover{
+	background-color: dimgray;
+}

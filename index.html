@@ -25,7 +25,7 @@
            <p>Pricing</p>
            <p>Resources</p>
            <div class="btn1">
-            <button > Log In</button>
+            <button class="login_btn" > Log In</button>
                <button style="background-color:rgb(63, 108, 63);">Sign Up</button>
         </div>
           
@@ -41,7 +41,7 @@
     <p>Analyze email content for spam score and validate HTML/CSS</p>
 
     <div>
-        <button class="btn">Sign Up For Free</button>
+        <button class="login_btn  btn">Sign Up For Free</button>
     </div>
     </div>
     
@@ -141,6 +141,7 @@
             <li>Cover code with tests to run automated checks via Sandbox API </li>
             <li>Verify different email aspects, debug sending script and HTML template</li>
         </ul>
+    </div>
         <div>
             <h2>QAs</h2>
             <ul>
@@ -159,7 +160,7 @@
             </ul>
         </div>
        
-        </div>
+    <!-- </div> -->
     </div>
     <div class="btn">
         <button >Sign Up For Free</button>
@@ -187,9 +188,9 @@
             <img src="https://mailtrap.io/wp-content/uploads/2021/04/UserTesting.svg" alt="">
         </div>
     </div>
-    <div class="word4">
-        <h1>Frequently Asked Questions</h1>
-    </div>
+    
+        <h1 class="word4">Frequently Asked Questions</h1>
+    
     <div class="box2">
         <div>
             <h2>Create Your Free Account<br/>
@@ -200,6 +201,22 @@
                 <img src="https://mailtrap.io/wp-content/uploads/2021/01/img__cta.svg" alt="">
             </div>
     </div>
+    <!-- <div id="word">
+        <div>
+            <h1>requently Asked Questions</h1>
+
+            <button></button>
+        </div>
+        <div></div>
+    </div> -->
     
 </body>
 </html>
+<script>
+    let abc=  document.querySelectorAll(".login_btn")
+      for(let i=0; i<abc.length; i++){
+        abc[i].addEventListener("click",function(){
+            window.open("login.html")
+        })
+      }
+</script>
